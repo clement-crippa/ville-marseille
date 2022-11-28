@@ -1,6 +1,13 @@
+body {
+  margin: 0%;
+}
+
 main {
-  background: grey;
+  background-image: url(../img/img-hisoire-marseille/img-bgc\ marseille.jpeg);
   padding: 3%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
