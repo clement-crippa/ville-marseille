@@ -1,0 +1,68 @@
+body {
+    background-color: #9eb7c8;
+}
+
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 70px;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: -500px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    line-height: 10;
+}
+
+p {
+    font-family: 'Marvel', sans-serif;
+    font-size: 38px;
+}
+
+.textemusée {
+    line-height: 52px;
+}
+
+.imagesmusées img{
+    transition: transform .1s;
+    }
+
+.imagesmusées img:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+    /* footer */
+    
+   
+
+
+    div.réso img{
+        height:50px;
+    }
+
+    img#logobdp{
+        height: 50px;
+        position: relative;
+        left: 890px;
+        bottom: 23px;
+        opacity: 0.3;
+    }   
