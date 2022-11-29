@@ -5,17 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/marseille1.css" />
+    <link rel="stylesheet" href="css/marseille.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Histoire de marseille</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="#"> Plage</a>
+            <ul>
+              <li><a href="#">Les Catalans</a></li>
+              <li><a href="#">Malmousque</a></li>
+              <li><a href="#">Prophète</a></li>
+              <li><a href="#">Prado</a></li>
+              <li><a href="#">Pointe Rouge</a></li>
+              <li><a href="#">Anse du Bain des Dames</a></li>
+              <li><a href="#">Baignade dans les Calanques</a></li>
+              <li><a href="#">corbères-l'Estaque</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#"> Parc</a>
+            <ul>
+              <li><a href="#">Borély</a></li>
+              <li><a href="#">26eme Centenaire</a></li>
+              <li><a href="#">La Magalone</a></li>
+              <li><a href="#">Les calanques</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Randonnée</a>
+            <ul>
+              <li><a href="#">Les calanques</a></li>
+              <li><a href="#">Urbaines</a></li>
+              <li><a href="#">Les colines de Pagnol</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <button class="bouton-image">
+          <a href="marseille.html">
+            <img
+              src="img/img-hisoire-marseille/blason-marseille.png"
+              alt="logo marseille"
+            />
+          </a>
+        </button>
+
+        <ul class="menu">
+          <li>
+            <a href="#">Musée</a>
+
+            <ul>
+              <li><a href="#">Mucem</a></li>
+              <li><a href="#">La veille charité</a></li>
+              <li><a href="#">Cantini</a></li>
+              <li><a href="#">les beaux-arts</a></li>
+              <li><a href="#">FRAC</a></li>
+              <li><a href="#">Histoire naturel</a></li>
+              <li><a href="#">Histoire de Marseille</a></li>
+              <li><a href="#">MAC</a></li>
+              <li><a href="#">Docks Romain</a></li>
+              <li><a href="#">Regards de Provence</a></li>
+              <li><a href="#">Château de La Buzine</a></li>
+              <li><a href="#">subaquatique</a></li>
+              <li><a href="#">Savon de Marseille</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Histoire</a>
+            <ul>
+              <li><a href="#">Création de Marseille</a></li>
+              <li><a href="#">Dans l'antiquité</a></li>
+              <li><a href="#">L'époque Romaine</a></li>
+              <li><a href="#">L'époque Médiéval</a></li>
+              <li><a href="#">Elle devient Française</a></li>
+              <li><a href="#">Un port mondial</a></li>
+              <li><a href="#">Au XXeme sciècle</a></li>
+              <li><a href="#">Marseille aujourd'hui</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <h1>L'histoire de Marseille</h1>
-      <section class="création">
+      <section class="création" id="creation">
         <h2>Le mythe de la fondation de la ville de Marseille</h2>
         <div>
           <img
             class="logo-marseille"
-            src="img/img-hisoire-marseille/blason-marseille.jpg"
+            src="img/img-hisoire-marseille/blason-marseille.png"
             alt="logo ville de marseille"
           />
           <p>
@@ -43,7 +137,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="antiquite">
         <h2>Le rôle de Marseille dans l'antiquité</h2>
         <div>
           <p>
@@ -73,7 +167,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="romaine">
         <h2>Massilia, la ville Romaine</h2>
         <div>
           <img
@@ -105,7 +199,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="medieval">
         <h2>Marseille la cité Médiéval</h2>
         <div>
           <p>
@@ -138,7 +232,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="francaise">
         <h2>Marseille devient française</h2>
         <div>
           <p>
@@ -168,7 +262,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="port">
         <h2>Marseille un port Mondial</h2>
         <div>
           <p>
@@ -193,7 +287,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="XXeme">
         <h2>Marseille au XXeme sciècle</h2>
         <div>
           <img
@@ -226,7 +320,7 @@
         </div>
       </section>
 
-      <section class="création">
+      <section class="création" id="aujourdhui">
         <h2>Marseille aujourd'hui</h2>
         <div>
           <p>
@@ -258,5 +352,34 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer2">
+          <a href="https://www.marseille.fr/"
+            ><img width="250px" src="/img/logo-ville-de-marseille-1.png"
+          /></a>
+        </div>
+        <div class="footer2">
+          <i class="fa-solid fa-bookmark"></i><br /><br /><a
+            class="a"
+            href="https://www.marseille.fr/"
+            >Marseille</a
+          ><br /><br /><a class="a" href="https://www.marseille-tourisme.com/"
+            >Office de tourisme</a
+          ><br /><br /><a class="a" href="https://www.corsicalinea.com/"
+            >Corsica linea</a
+          ><br /><br /><br /><br />
+        </div>
+        <div class="footer2">
+          <i class="fa-solid fa-eye"></i
+          ><br /><br />Acceuil<br /><br />Histoire<br /><br />Musées<br /><br />Plages<br /><br />Randonées<br /><br /><a
+            class="a"
+            href="parc_publique.html"
+            >Parc</a
+          ><br /><br />Contacts<br /><br />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
