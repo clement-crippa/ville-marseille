@@ -28,11 +28,9 @@ div.rando-calanque{
 div.titre{
     text-align: center;
 }
-section{
-    text-align: center;
-}
 h1{
     font-size: 25px;
+    padding-bottom: 10px;
 }
 img{
     width: 500px;
@@ -82,10 +80,8 @@ h1.titre-article{
 section{
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 .section-placement{
     width: 60%;
-}
-h1{
-    padding-bottom: 10px;
 }
