@@ -1,0 +1,62 @@
+body {
+  margin: 0%;
+}
+
+main {
+  background-image: url(../img/img-hisoire-marseille/img-bgc\ marseille.jpeg);
+  padding: 3%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 7%;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7%;
+  background: white;
+  padding: 3%;
+}
+
+section:hover {
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  box-shadow: 1em 1em 10em 1em black;
+}
+
+.création div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+  width: 90%;
+  background-color: white;
+}
+
+.création p {
+  width: 40%;
+}
+
+.img-pytheas {
+  height: 20em;
+}
+
+.logo-marseille {
+  width: 25em;
+}
+.img-marseille-francaise {
+  width: 30em;
+}
