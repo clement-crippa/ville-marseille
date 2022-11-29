@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+}
+body{
+    background-color: #a3e0ed;
+    font-family: "Arial",serif;
+    font-size: 20px;
+}
+article{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: black 1px 1px 15px 1px;
+}
+div.rando-pagnol{
+    background-color: white;
+    margin: 60px;
+}
+div.rando-urbaine{
+    background-color: white;
+    margin: 60px;
+}
+div.rando-calanque{
+    background-color: white;
+    margin: 60px;
+
+}
+div.titre{
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+div.slider{
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+div.slides{
+    width: calc(500px * 3);
+    animation: glisse 10s infinite;
+}
+div.slide{
+    float: left;
+}
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    45% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    70% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+h1.titre-article{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.section-placement{
+    width: 60%;
+}
