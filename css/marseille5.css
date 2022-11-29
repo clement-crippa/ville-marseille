@@ -85,7 +85,7 @@ h1{
 }
 
 .container3{
-    background-image: url(/img/10.jpg);
+    background-image: url(/img/parc/10.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -96,7 +96,7 @@ h1{
 }
 
 .container3:hover{
-    background-image: url(/img/10.2.jpg);
+    background-image: url(/img/parc/10.2.jpg);
     margin: 45px;
     margin-bottom: 0;
     color:  white;
@@ -126,7 +126,7 @@ h1{
 
 .main{
     
-    background-image: url(/img/11.jpg);
+    background-image: url(/img/parc/11.jpg);
     background-size: cover;
 }
 
