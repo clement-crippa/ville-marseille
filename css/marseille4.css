@@ -3,6 +3,8 @@
 }
 body{
     background-color: #a3e0ed;
+    font-family: "Arial",serif;
+    font-size: 20px;
 }
 article{
     display: flex;
@@ -30,7 +32,7 @@ h1{
     font-size: 25px;
     padding-bottom: 10px;
 }
-img.photo{
+img{
     width: 500px;
     height: 500px;
 }
