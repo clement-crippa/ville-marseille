@@ -7,8 +7,6 @@ main{
     margin-top: 25px;
     margin-left:50px;
     margin-right:50px;
-    font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -87,18 +85,18 @@ h1{
 }
 /*Conteneur*/
 .container3{
-    background-image: url(/img/parc/10.jpg);
+    background-image: url(../img/parc/10.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
     transition: all 0.5s ease;
     margin: 50px;
-    height: 800px;
+    height: 700px;
     margin-bottom: 0;
 }
 
 .container3:hover{
-    background-image: url(/img/parc/10.2.jpg);
+    background-image: url(../img/parc/10.2.jpg);
     margin: 45px;
     margin-bottom: 0;
     color:  white;
@@ -128,7 +126,7 @@ h1{
 
 .main{
     
-    background-image: url(/img/parc/11.jpg);
+    background-image: url(../img/parc/11.jpg);
     background-size: cover;
 }
 
@@ -175,7 +173,7 @@ h1{
 }
 
 .h2{
-    font-size: 5.5ch;
+    font-size: 6ch;
 }
 
 .container6{

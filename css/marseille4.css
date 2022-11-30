@@ -9,6 +9,7 @@ article{
     padding: 5px;
     margin: 10px;
     box-shadow: black 1px 1px 15px 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div.rando-pagnol{
     background-color: white;
@@ -74,11 +75,13 @@ h1.titre-article{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 section{
     justify-content: center;
     display: flex;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .section-placement{
     width: 60%;
