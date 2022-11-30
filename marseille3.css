@@ -1,0 +1,19 @@
+img.photo{width: 50%;}
+main{font-family: 'Sora', sans-serif;}
+h1{text-align: center;
+    margin-bottom: 2%;
+}
+h2{margin-left: 3%;
+    margin-top: 3%;
+}
+article{
+    display: flex;
+    margin-bottom: 7%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+article p{width: 40%;}
+p.sous-titre{
+    text-align: center;
+}
